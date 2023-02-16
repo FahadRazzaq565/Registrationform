@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        .body{
+            background-color: #D5D5D5;
+        }
+        .h1{
+            text-align: center;
+            background-color: aliceblue;
+            color: black;
+        }
+      
+    </style>
+</head>
+<body class="body">
+    <div class="h1">
+        <h1>Registeration Form</h1>
+    </div>
+   
+    <table>
+        <tbody><tr>
+            <td>
+                
+                <label for="fname">FIRST NAME</label>
+            </td>
+            <td>
+                <input type="text" id="fname" name="fname" placeholder="Enter first name" required="" maxlength="30">
+               
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="lname">LAST NAME</label>
+            </td>
+            <td>
+                <input type="text" id="lname" name="lname" placeholder="Enter last name" required="" maxlength="30">
+            </td>
+        </tr>
+
+        <tr>
+            <td>    
+                <label for="dob">DATE OF BIRTH</label>
+            </td>
+            <td>
+                <select id="days" name="days">
+                    <option value="" selected="" disabled="" hidden="">Day:</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <select id="month" name="month">
+                    <option value="" selected="" disabled="" hidden="">Month:</option>
+                    <option value="jan">January</option>
+                    <option value="feb">Feburary</option>
+                    <option value="mar">March</option>
+                    <option value="apr">April</option>
+                    <option value="may">May</option>
+                    <option value="jan">June</option>
+                    <option value="feb">July</option>
+                    <option value="mar">August</option>
+                    <option value="apr">September</option>
+                    <option value="may">October</option>
+                    <option value="apr">November</option>
+                    <option value="may">December</option>
+                </select>   
+                <select id="year" name="year">
+                    <option value="" selected="" disabled="" hidden="">Year:</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                    <option value="2028">2028</option>
+                    <option value="2029">2029</option>
+                    <option value="2030">2030</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="email">EMAIL ID</label>
+            </td>
+            <td>
+                <input type="email" id="email" name="email" placeholder="Enter email address" required="">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="phone">MOBILE NUMBER</label>
+            </td>
+            <td>
+                <input type="tel" id="phone" name="phone" placeholder="Enter mobile number" required="" maxlength="10">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="gender">GENDER</label>
+            </td>
+            <td>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="address">ADDRESS</label>
+            </td>
+            <td>
+                <textarea id="address" required="" rows="2" cols="50"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="city">CITY</label>
+            </td>
+            <td>
+                <input type="text" id="city" name="city" placeholder="Enter city name" required="" maxlength="30">
+            </td>
+        </tr>
+
+       
+      
+
+        <tr>
+            <td>
+                <label for="country">COUNTRY</label>
+            </td>
+            <td>
+                <input type="text" id="country" name="country" placeholder="Enter country" required="" maxlength="30">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td><br/>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+    </tbody></table>
+   
+    </div>
+</body>
+</html>
